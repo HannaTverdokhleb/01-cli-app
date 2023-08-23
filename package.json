@@ -1,0 +1,22 @@
+{
+  "name": "01-cli-app",
+  "version": "1.0.0",
+  "description": "cli-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "01-cli-app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  }
+}
